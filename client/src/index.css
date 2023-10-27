@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    overflow-x: hidden;
+    color: rgb(223, 218, 218);
+}

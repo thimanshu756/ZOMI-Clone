@@ -3,7 +3,7 @@ import logo from "./Logo.png";
 import "./component.css"
 const Navbar = () => {
   return (
-    <div className='navbar border h-14 bg-black'>
+    <div className='navbar border border-neutral-800 h-14 bg-black'>
         <div className='logo'>
             <span className='flex text-white relative'>
             <img src={logo} alt="" className='h-14 absolute '/>
