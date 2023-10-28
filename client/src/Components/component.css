@@ -3,3 +3,6 @@
     width: 100%; 
     overflow: hidden;
 }
+.links:hover{
+     color: white;
+}

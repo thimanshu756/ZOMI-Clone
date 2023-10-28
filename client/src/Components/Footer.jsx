@@ -5,6 +5,7 @@ import { AiOutlineMedium } from 'react-icons/ai';
 import { AiFillGithub } from 'react-icons/ai';
 import { BsTelegram } from 'react-icons/bs';
 import { BsDiscord } from 'react-icons/bs';
+import "./component.css";
 
 const Footer = () => {
   return (
@@ -17,11 +18,11 @@ const Footer = () => {
       </div>
       <div>
       <ul className='flex justify-between gap-20   absolute top-[130px]  left-[450px] text-4xl items-center'>
-          <li><BsTwitter/></li>
-          <li><AiOutlineMedium/></li>
-          <li><AiFillGithub/></li>
-          <li><BsTelegram/></li>
-          <li><BsDiscord/></li>       
+          <li className='links'><BsTwitter/></li>
+          <li className='links'><AiOutlineMedium/></li>
+          <li className='links'><AiFillGithub/></li>
+          <li className='links'><BsTelegram/></li>
+          <li className='links'><BsDiscord/></li>       
            </ul>
       </div>
       <div className='flex gap-10 relative left-[500px] top-[190px]'>

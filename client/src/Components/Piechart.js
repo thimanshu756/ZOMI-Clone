@@ -21,7 +21,7 @@ const data= {
         // label:'In liquidity',
         data:[val1,val2],
         backgroundColor:['#0698fa','#5c0bf4'],
-        borderColor:['#0698fa', '#5c0bf4'],
+        borderColor:['#0698fa', '#5c0bf4'], 
        
     }],
     plugins:{

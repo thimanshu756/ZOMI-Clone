@@ -5,6 +5,10 @@ import eth_image from "./etherium.svg";
 import zomi_img from './zomi.png';
 import zlp_img from './zlp.png';
 import Piechart from '../Components/Piechart';
+import etherium from './etherium_mn.svg';
+import usd from './usd.svg';
+import bitcoin from './Bitcoin.svg';
+import Apecoin  from './Apecoin.svg';
 const Dashboard = () => {
     return (
         <div className='bg-black'>
@@ -20,7 +24,7 @@ const Dashboard = () => {
                 <p className='mb-5'>For detailed stats:</p>
                 {/* inserting tables  */}
                 <div className='flex gap-10'>
-                    <table className='border w-[600px] rounded-md relative '>
+                    <table className='border w-[650px] rounded-md relative '>
                         <tr className='border'>
                             <td className=' left-0 p-2 text-l'>Overview</td>
                         </tr>
@@ -47,7 +51,7 @@ const Dashboard = () => {
 
                     </table>
 
-                    <table className='border w-[600px] rounded-md relative '>
+                    <table className='border w-[635px] rounded-md relative '>
                         <tr className='border'>
                             <td className=' left-0 p-2 text-l'>Total Stats</td>
                         </tr>
@@ -108,9 +112,9 @@ const Dashboard = () => {
                     <div className='border rounded-md flex p-5'>
                     <table className=' w-[400px] rounded-md relative '>
                         <tr className='border border-t-0 border-r-0 border-l-0'>
-                            <div className='flex'>
-                            <img src={zlp_img} alt="" className='h-10' />
-                            <div>
+                            <div className='flex gap-2'>
+                            <img src={zlp_img} alt="" className='h-10 ' />
+                            <div className=''>
                             <p>$ZLP</p>
                             <p className='text-xs	'>$ZLP</p>
                             </div>
@@ -144,55 +148,83 @@ const Dashboard = () => {
                     </div>
                 </div>
                 <div className='mt-10'>
-                <table className='border w-[1330px] rounded-md relative '>
-                        <tr className='border'>
-                            <td className=' left-0 p-2 text-l'>$Zomi</td>
+                <table className=' w-[1330px] h-[500px] border rounded-md '>
+                        <tr className='border h-[50px]'>
+                            <td className=' left-0 p-2 text-l flex'>
+                                <p>$ZLP Index Composition</p>
+                                <img src={eth_image} alt="" />
+                                </td>
                         </tr>
                         <tr className=''>
-                            <td>Price</td>
-                            <td className='absolute right-0'>$0.00</td>
+                          <td className='pl-5'>
+                            TOKEN
+                          </td>
+                          <td>PRICE</td>
+                          <td>POOL</td>
+                          <td>WEIGHT</td>
+                          <td>UTILIZATION</td>
                         </tr>
-                        <tr>
-                            <td>Wallet</td>
-                            <td className='absolute right-0' >...$ZOMI ($...)</td>
-                        </tr>
-                        <tr>
-                            <td>Staked</td>
-                            <td className='absolute right-0'>... $ZOMI ($...)</td>
-                        </tr>
-                        <br />
-                        <tr className='border border-b-0	'>
-                            <td className='pt-5'>APR</td>
-                            <td className='absolute right-0 pt-5'>...%</td>
-                        </tr>
-                        <tr>
-                            <td>Rewards</td>
-                            <td className='absolute right-0'>$...</td>
-                        </tr>
-                        <tr>
-                            <td>Multiplier Points APR</td>
-                            <td className='absolute right-0'>100.00%</td>
-                        </tr>
-                        
                         <tr className=''>
-                            <td>Boost Percentage</td>
-                            <td className='absolute right-0  pb-5'>...%</td>
-                        </tr>
-              <br />
-                        <tr className='border  border-b-0 mt-5'>
-                            <td className='pt-5'>
-                            Total Staked
+                            <td className='pl-5'>
+                            <div className='flex gap-2'>
+                            <img src={zlp_img} alt="" className='h-10' />
+                            <div>
+                            <p>$ZLP</p>
+                            <p className='text-xs	'>$ZLP</p>
+                            </div>
+                            </div>
                             </td>
-                            <td className='absolute right-0 pt-5'>0 $ZOMI ($...)</td>
+                            <td>$1.00	</td>
+                            <td>$14</td>
+                            <td>49.50% / 25.00%</td>
+                            <td>0.00%</td>
                         </tr>
-                        <tr>
-                            <td>Total Supply</td>
-                            <td className='absolute right-0'>10,000 $ZOMI ($10)</td>
+                        <tr className=''>
+                            <td className='pl-5'>
+                            <div className='flex gap-2'>
+                            <img src={bitcoin} alt="" className='h-10' />
+                            <div>
+                            <p>$Bitcoin</p>
+                            <p className='text-xs	'>$Bitcoin</p>
+                            </div>
+                            </div>
+                            </td>
+                            <td>$1,789.61	</td>
+                            <td>$19</td>
+                            <td>50.49% / 25.00%</td>
+                            <td>0.00%</td>
                         </tr>
-                        <br />
-                        <tr>
-                            <button className=' m-5 w-[100px] h-[36px] rounded bg-green-800'>Buy $ZOMI</button>
+                        <tr className=''>
+                            <td className='pl-5'>
+                            <div className='flex gap-2'>
+                            <img src={Apecoin} alt="" className='h-10' />
+                            <div>
+                            <p>$Apecoin</p>
+                            <p className='text-xs	'>$Apecoin</p>
+                            </div>
+                            </div>
+                            </td>
+                            <td>$34,094.57	</td>
+                            <td>$0</td>
+                            <td>0.00% / 25.00%</td>
+                            <td>0.00%</td>
                         </tr>
+                        <tr className=''>
+                            <td className='pl-5'>
+                            <div className='flex gap-2'>
+                            <img src={usd} alt="" className='h-10' />
+                            <div>
+                            <p>$USD COIN</p>
+                            <p className='text-xs	'>$USD COIN</p>
+                            </div>
+                            </div>
+                            </td>
+                            <td>$1.37	</td>
+                            <td>$0	</td>
+                            <td>0.00% / 25.00%</td>
+                            <td>0.00%</td>
+                        </tr>
+                      
                     </table>
                 </div>
             </div>

@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
-import Piechart from '../Components/Piechart'
 
 const Earn = () => {
   return (
@@ -246,7 +245,7 @@ const Earn = () => {
         <div>
             <Footer/>
         </div>
-        <Piechart  name='xyz'val1={2} val2={98} tag1='oreo' tag2='choco'/>
+      
     </div>
   )
 }

@@ -7,7 +7,9 @@ import liquid_img from './liquid.svg';
 import swap_img from './swap.svg';
 import zlp_img from './zlp.png';
 import zomi_img from './zomi.png';
+import user_img from './users.svg';
 import Footer from '../Components/Footer';
+import './Home.css'
 const Home = () => {
   return (
     <div className='bg-black  h-[1850px] text-white overflow-hidden'>
@@ -30,17 +32,17 @@ const Home = () => {
               </div>
             </div>
             <div className='card border border-neutral-800 flex h-[120px] w-[400px] p-8 relative'>
-              <img src={trade} alt="" className='h-12' />
+              <img src={interest} alt="" className='h-12' />
               <div>
-                <p className='absolute left-28'>Total Trading Volume</p>
+                <p className='absolute left-28'>Open Interest</p>
                 <p className='absolute top-14 left-28 text-3xl'>$0</p>
               </div>
 
             </div>
             <div className='card border border-neutral-800 flex h-[120px] w-[400px] p-8 relative'>
-              <img src={trade} alt="" className='h-12' />
+              <img src={user_img} alt="" className='h-12' />
               <div>
-                <p className='absolute left-28'>Total Trading Volume</p>
+                <p className='absolute left-28'>Total Users</p>
                 <p className='absolute top-14 left-28 text-3xl'>$0</p>
               </div>
 
