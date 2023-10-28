@@ -31,7 +31,7 @@ const data= {
     }
 }
 const options ={
-    cutout:80 ,
+    cutout:70 ,
  
     hoverBorderColor:['#2BB3FF','#5c0bf4'],
 }
