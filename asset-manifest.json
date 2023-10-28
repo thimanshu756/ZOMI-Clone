@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/romi/static/css/main.a854f87c.css",
+    "main.js": "/romi/static/js/main.4f32e12d.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/romi/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/Apecoin.svg": "/romi/static/media/Apecoin.53ac41f300649e04cf68abbcf3fd6136.svg",
+    "static/media/Logo.png": "/romi/static/media/Logo.7fd957bee5cc9d0a0571.png",
+    "static/media/costs.svg": "/romi/static/media/costs.b4a729d315d7ecfe0fb56bc37f974f52.svg",
+    "static/media/Bitcoin.svg": "/romi/static/media/Bitcoin.8330ef8dcf4d6959a9eae73545da71c9.svg",
+    "static/media/trading.svg": "/romi/static/media/trading.2c53815a7623a4898b0150a19fc3c5e9.svg",
+    "static/media/users.svg": "/romi/static/media/users.ae09b3105674952ee8d92dcf16d22d1f.svg",
+    "static/media/usd.svg": "/romi/static/media/usd.27f415ba778073d06acad7e958eaa641.svg",
+    "static/media/swap.svg": "/romi/static/media/swap.2005009f5f16e87417d44b8c8b1ad47e.svg",
+    "static/media/liquid.svg": "/romi/static/media/liquid.505b3f3092989052e6f990d498df3dd0.svg",
+    "static/media/etherium_mn.svg": "/romi/static/media/etherium_mn.5e255508ace6905c481553b55d27a0e4.svg",
+    "static/media/etherium.svg": "/romi/static/media/etherium.4f4088f4ac46b621e2675d5cd391bdf6.svg",
+    "static/media/interest.svg": "/romi/static/media/interest.f0a18011f34ad3ae0cde3c5949cf6555.svg",
+    "index.html": "/romi/index.html",
+    "main.a854f87c.css.map": "/romi/static/css/main.a854f87c.css.map",
+    "main.4f32e12d.js.map": "/romi/static/js/main.4f32e12d.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/romi/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a854f87c.css",
+    "static/js/main.4f32e12d.js"
+  ]
+}
