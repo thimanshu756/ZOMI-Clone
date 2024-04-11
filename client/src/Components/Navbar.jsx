@@ -14,9 +14,9 @@ const Navbar = () => {
         <div className='lists text-white absolute right-[100px] top-4 justify-between w-[900px]'>
             <ul className='flex justify-around'>
             <li className='links'><Link to="/">Home</Link>  </li>
-            <li className='links'><Link to="dashboard">Dashboard</Link>  </li>
+            <li className='links'><Link to="/dashboard">Dashboard</Link>  </li>
             <li className='links '>  NFT</li>
-            <li className='links'> <Link to="earn">Earn</Link>  </li>
+            <li className='links'> <Link to="/earn">Earn</Link>  </li>
             <li className='links'>  Buy</li>
             <li className='links'>  Referals</li>
             <li className='links'>  Ecosystem</li>
